@@ -1,0 +1,11 @@
+
+`
+java:S1854X"CRemove this useless assignment to local variable "locationManager".(¿é¨Ë8™ò°öÒ1
+Q
+java:S1481X"4Remove this unused "locationManager" local variable.(¿é¨Ë8Ÿò°öÒ1
+[
+java:S1874|"9Remove this use of "PreferenceManager"; it is deprecated.(¤è·ãıÿÿÿÿ8£ò°öÒ1
+e
+java:S1874|"CRemove this use of "getDefaultSharedPreferences"; it is deprecated.(¤è·ãıÿÿÿÿ8£ò°öÒ1
+M
+java:S1874€"/Remove this use of "setZoom"; it is deprecated.(ê÷ãÁ8¤ò°öÒ1

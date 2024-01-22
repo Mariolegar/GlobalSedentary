@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Global Sedentary</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de nagevación</string>
+    <string name="nav_header_title">Global Sedentary</string>
+    <string name="nav_header_subtitle">Las fotos de día son sin flash!</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_turn_on">Notificacion Local</string>
+    <string name="action_turn_off">Notificacion Remota</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Mapa</string>
+
+    <string name="notification_channel_name">Global Sedentary</string>
+    <string name="notification_channel_description">Uso básico de funcionalidades de android</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376189030303",
+    "project_id": "global-sedentary",
+    "storage_bucket": "global-sedentary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376189030303:android:d82ac42381c3babb08b7aa",
+        "android_client_info": {
+          "package_name": "com.example.globalsedentary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRfQHTKcAj0cPQMtM5ipgMFcN4YLZXfVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
