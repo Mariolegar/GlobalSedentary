@@ -1,15 +1,15 @@
 
 u
-java:S1192T"XDefine a constant instead of duplicating this literal "My Notification Channel" 4 times.(æ€¥8ã¼†öÒ1
+java:S1192T"XDefine a constant instead of duplicating this literal "My Notification Channel" 4 times.(æ€¥8çó•‚Ó1
 y
-java:S1192f"WDefine a constant instead of duplicating this literal "app_start_notification" 3 times.(‰ö÷İøÿÿÿÿ8ü½‡öÒ1
+java:S1192f"WDefine a constant instead of duplicating this literal "app_start_notification" 3 times.(‰ö÷İøÿÿÿÿ8èó•‚Ó1
 F
-java:S1604Š"(Make this anonymous inner class a lambda(…Ú³Ü8ü½‡öÒ1
+java:S1604Š"(Make this anonymous inner class a lambda(…Ú³Ü8èó•‚Ó1
 E
-java:S1604—"(Make this anonymous inner class a lambda(´ÛäX8ä¼†öÒ1
+java:S1604—"(Make this anonymous inner class a lambda(´ÛäX8éó•‚Ó1
 s
-java:S1450,"VRemove the "binding" field and declare it as a local variable in the relevant methods.(¶ÃÊ8‡½†öÒ1
+java:S1450,"VRemove the "binding" field and declare it as a local variable in the relevant methods.(¶ÃÊ8‹ô•‚Ó1
 L
-java:S1481x"*Remove this unused "token" local variable.(Àışùÿÿÿÿ8¥½†öÒ1
+java:S1481x"*Remove this unused "token" local variable.(Àışùÿÿÿÿ8ªô•‚Ó1
 Q
-java:S1874{"/Remove this use of "Handler"; it is deprecated.(’àŞ–úÿÿÿÿ8¦½†öÒ1
+java:S1874{"/Remove this use of "Handler"; it is deprecated.(’àŞ–úÿÿÿÿ8¬ô•‚Ó1
