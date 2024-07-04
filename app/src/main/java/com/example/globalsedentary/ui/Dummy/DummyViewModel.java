@@ -1,16 +1,16 @@
-package com.example.globalsedentary.ui.gallery;
+package com.example.globalsedentary.ui.Dummy;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class DummyViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public DummyViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Generador de datos para simulación del dispositivo");
     }
 
     public LiveData<String> getText() {

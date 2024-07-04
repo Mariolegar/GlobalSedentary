@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Dummy.DummyFragment">
+
+    <TextView
+        android:id="@+id/description_dummy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+        android:id="@+id/botonActivar_dummy"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="1dp"
+        android:textSize="15sp"
+        android:text="Simular datos"
+        app:layout_constraintTop_toBottomOf="@+id/description_dummy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonLeerRegistro_dummy"/>
+
+    <Button
+        android:id="@+id/botonLeerRegistro_dummy"
+        android:layout_width="0dp"
+        android:textSize="15sp"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="1dp"
+        android:text="ver registros"
+        app:layout_constraintTop_toBottomOf="@+id/description_dummy"
+        app:layout_constraintStart_toEndOf="@+id/botonActivar_dummy"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/botonLimpiarRegistros_dummy"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="1dp"
+        android:text="Limpiar Registros"
+        app:layout_constraintTop_toBottomOf="@+id/botonActivar_dummy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonSincronizarRegistros_dummy"/>
+
+    <Button
+        android:id="@+id/botonSincronizarRegistros_dummy"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="1dp"
+        android:text="Sincronizar Registros"
+        app:layout_constraintTop_toBottomOf="@+id/botonLeerRegistro_dummy"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/botonLimpiarRegistros_dummy"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

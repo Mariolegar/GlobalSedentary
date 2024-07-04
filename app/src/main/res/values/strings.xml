@@ -8,9 +8,10 @@
     <string name="action_turn_on">Notificacion Local</string>
     <string name="action_turn_off">Notificacion Remota</string>
 
-    <string name="menu_home">Inicio</string>
-    <string name="menu_gallery">Galería</string>
+    <string name="menu_home">Registros</string>
+    <string name="menu_gallery">Simulador</string>
     <string name="menu_slideshow">Mapa</string>
+
 
     <string name="notification_channel_name">Global Sedentary</string>
     <string name="notification_channel_description">Uso básico de funcionalidades de android</string>

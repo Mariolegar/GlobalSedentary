@@ -1,29 +1,23 @@
-package com.example.globalsedentary;
+package com.example.globalsedentary.ui;
 
 import org.json.JSONObject;
 
 import android.os.Bundle;
 import android.os.Build;
 import android.os.Handler;
-import android.os.Vibrator;
 import android.view.View;
-import android.view.MenuItem;
 import android.view.Menu;
-import android.content.Context;
 import android.app.NotificationManager;
 import android.app.NotificationChannel;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
-import com.google.android.material.snackbar.Snackbar;
+import com.example.globalsedentary.R;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.messaging.RemoteMessage;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import androidx.navigation.NavController;
@@ -42,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+
 
     private void triggerNotification() {
         String functionUrl = "https://us-central1-global-sedentary.cloudfunctions.net/sendNotification";
@@ -77,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
-        Toast.makeText(this, "hola", Toast.LENGTH_SHORT).show();
         String title = remoteMessage.getNotification().getTitle();
         String body = remoteMessage.getNotification().getBody();
 
@@ -94,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             CharSequence name = getString(R.string.notification_channel_name);
@@ -134,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setSupportActionBar(binding.appBarMain.toolbar);
         binding.appBarMain.fab.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
